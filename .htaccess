@@ -6,4 +6,5 @@ RewriteBase /mvc/public
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /mvc/public/index.php?url=$1 [QSA,L]
+RewriteRule ^ /mvc/public/index.php

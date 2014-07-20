@@ -11,6 +11,6 @@ class Home extends Controller
 	{
 		$pages = $this->model('Page');
 
-		$this->view('home/index', ['title' => $slug], $pages->menu);		
+		$this->view('home/index', array('title' => $slug), $pages->menu);		
 	}
 }

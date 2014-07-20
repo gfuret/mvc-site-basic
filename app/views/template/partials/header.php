@@ -1,7 +1,7 @@
 <html>
 <head>
 
-	<title><?php echo $data['title']; ?> | gfuret</title>
+	<title><?php echo $data['title'].' | '; ?> gfuret</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link href="/mvc/public/css/bootstrap.css" rel="stylesheet">
 </head>

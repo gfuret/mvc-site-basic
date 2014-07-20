@@ -6,8 +6,8 @@
 class Page
 {
 
-    public $fields = [];
-    public $menu = [];
+    public $fields = array();
+    public $menu = array();
 
     public function __construct()
     {
