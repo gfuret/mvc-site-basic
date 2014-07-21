@@ -10,9 +10,14 @@
 	    <div class="collapse navbar-collapse">
 	    	<ul class="nav navbar-nav navbar-right">
 	    		<li><a href="/mvc/public">Home</a></li>
+		        <!-- Get pages -->
 		        <?php foreach ($menu as $key => $link) { ?>
 				        <li><a href="/mvc/public/pages/<?php echo $link['slug']; ?>"><?php echo $link['title']; ?></a></li>
 				<?php } ?>
+				<!-- News -->
+
+				<!-- User -->
+				
 	     	</ul>
 	    </div>
 	</div>

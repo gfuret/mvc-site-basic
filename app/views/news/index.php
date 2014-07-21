@@ -3,12 +3,12 @@
     <div class="container">
 	    <section>
 		    <article>
-		    	<p>Home page information</p>
+		    	<h1><?php echo $data['title']; ?></h1>
+		    	<p><?=$data['created_at']?></p>
+					<p>
+		    			<?php echo $data['body']; ?>
+					</p>
 		    </article>
 		</section>
-	</div>     
-    <?php
-        $news = $this->model('NewsModel');
-        $this->view('news/all', $news->all(array(), 'news')); 
-    ?>  
+	</div>
 <?php include '../app/views/template/partials/footer.php'; ?>

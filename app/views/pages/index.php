@@ -10,7 +10,6 @@
 	    <section>
 		    <article>
 				<h2><a href="#"><?=$data['title']?></a></h2>
-				<p><?=$data['created_at']?></p>
 				<div><?=$data['body']?></div>
 		    </article>
 		</section>
